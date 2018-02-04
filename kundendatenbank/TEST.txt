@@ -1,0 +1,139 @@
+Das Programm kann am besten durch Nutzereingaben getestet werden.
+
+Möglicher Ablauf von Nutzereingaben:
+
+# Datenbank von Datei laden
+Eingabe: L
+Ausgabe: Dateiname zum Laden:
+
+Eingabe: testDB.txt
+Ausgabe: Laden war erfolgreich!
+
+
+# Datenbank in Datei speichern
+Eingabe: S
+Ausgabe: Dateiname zum Speichern:
+
+Eingabe: datenbank.txt
+Ausgabe: Speichern war erfolgreich!
+
+
+# Ausagbe aller Kunden (nicht im Hauptmenü)
+Eingabe: a
+Ausgabe:
+Gefundene Kunden: 4
+
+Kunde 0
+Firma: Apple
+Name: Jobs
+Vorname: Steve
+Jahresumsatz: 10000000
+Rabattkategorie: 10%
+
+Kunde 1
+Firma: Microsoft
+Name: Gates
+Vorname: Bill
+Jahresumsatz: 20000
+Rabattkategorie: 2%
+
+Kunde 2
+Firma: Facebook
+Name: Zuckerberg
+Vorname: Mark
+Jahresumsatz: 45000
+Rabattkategorie: 4%
+
+Kunde 3
+Firma: Google
+Name: Page
+Vorname: Larry
+Jahresumsatz: 110000
+Rabattkategorie: 10%
+
+
+# Hinzufügen eines Kunden
+Eingabe: N
+Ausgabe: Nachname:
+
+Eingabe: Bezos
+Ausgabe: Vorname:
+
+Eingabe: Jeff
+Ausgabe: Firma:
+
+Eingabe: Amazon
+Ausgabe: Jahresumsatz:
+
+Eingabe: 345000
+Ausgabe: Neuer Eintrag erstellt!
+
+
+# Kunden löschen
+Eingabe: e
+Ausgabe: Kundennummer:
+
+Eingabe: 4
+Ausgabe: Eintrag gelöscht!
+
+
+# Suchen nach Namen
+Eingabe: u
+Ausgabe: Suchkriterium: [N]ame, [U]msatz
+
+Eingabe: N
+Ausgabe: Name:
+
+Eingabe: Gates
+Ausgabe: Gefundene Kunden: 1
+
+Kunde 1
+Firma: Microsoft
+Name: Gates
+Vorname: Bill
+Jahresumsatz: 20000
+Rabattkategorie: 2%
+
+
+# Suchen nach Jahresumsatz
+Eingabe: u
+Ausgabe: Suchkriterium: [N]ame, [U]msatz
+
+Eingabe: U
+Ausgabe: Minimaler Umsatz:
+
+Eingabe: 0
+Ausgabe: Maximaler Umsatz:
+
+Eingabe: 100000
+Ausgabe: Gefundene Kunden: 2
+
+Kunde 1
+Firma: Microsoft
+Name: Gates
+Vorname: Bill
+Jahresumsatz: 20000
+Rabattkategorie: 2%
+
+Kunde 2
+Firma: Facebook
+Name: Zuckerberg
+Vorname: Mark
+Jahresumsatz: 45000
+Rabattkategorie: 4%
+
+
+# Jahresumsatz ändern
+Eingabe: J
+Ausgabe: Kundennummer:
+
+Eingabe: 0
+Ausgabe: Jahresumsatz (ohne Einheit):
+
+Eingabe: 3000000
+Ausgabe: Änderung gespeichert!
+
+
+# Programm beenden
+Eingabe: Q
+Ausgabe: Auf Wiedersehen! 
